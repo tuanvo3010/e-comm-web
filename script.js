@@ -2,6 +2,8 @@ const bar = document.getElementById("bar");
 const close = document.getElementById("close");
 const nav = document.getElementById("navbar");
 
+
+// Navbar responsive open and close.
 if (bar) {
   bar.addEventListener("click", () => {
     nav.classList.add("active");
@@ -15,6 +17,7 @@ if (close) {
 }
 
 // single product image change
+// Click vào ảnh nhỏ có index nào thì ảnh to sẽ thay đổi src tương ứng với src của ảnh nhỏ
 let MainImg = document.getElementById("MainImg");
 let smallimg = document.getElementsByClassName("small-img");
 
